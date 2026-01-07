@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRISP-DM  - Professional Blue & Grey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="main-header">
+  <div class="header-container">
+    <div class="logo-area">
+      <h1 class="logo-main">CRISP-DM</h1>
+      <span class="logo-sub">Methodology</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="case-study.html" >Case Study</a>
+      <a href="about_references.html">About</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="page-wrapper">
+    <div class="side-layout">
+      <section class="glass-box half-width">
+        <h2>Problem Statement</h2>
+        <p>
+          Financial institutions face significant risk when borrowers fail to adhere to repayment schedules. 
+          This study applies the <strong>CRISP-DM methodology</strong> to predict loan default risks, 
+          transforming raw financial data into actionable lending intelligence.
+        </p>
+      </section>
+
+      <section class="glass-box half-width">
+        <h2>Data Distribution</h2>
+        <div class="chart-container">
+          <div class="bar-row">
+            <div class="bar-label">Non-Default (65%)</div>
+            <div class="bar-bg"><div class="bar-fill b2" style="width: 65%;"></div></div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Defaulted (35%)</div>
+            <div class="bar-bg"><div class="bar-fill b3" style="width: 35%;"></div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="side-layout">
+      
+      <section class="glass-box flow-column">
+        <h2>CRISP-DM Application Flow: Loan Default</h2>
+        <div class="case-grid">
+          
+          <details class="case-card b1">
+            <summary>Business Understanding</summary>
+            <div class="card-content">
+              <p>A commercial bank aims to reduce its 35% default rate by identifying high-risk applicants before loan approval.</p>
+              <div class="output-box"><strong>Stage Output:</strong> Project plan and success metrics.</div>
+            </div>
+          </details>
+          <div class="flow-connector"></div>
+
+          <details class="case-card b2">
+            <summary>Data Understanding</summary>
+            <div class="card-content">
+              <p>Auditors examine historical logs of 50,000 past loans, looking at debt-to-income ratios and payment history.</p>
+              <div class="output-box"><strong>Stage Output:</strong> Data quality report identifying missing credit scores.</div>
+            </div>
+          </details>
+          <div class="flow-connector"></div>
+
+          <details class="case-card b3">
+            <summary>Data Preparation</summary>
+            <div class="card-content">
+              <p>Cleaning the dataset by removing duplicate entries and normalizing salary figures into a standard format.</p>
+              <div class="output-box"><strong>Stage Output:</strong> Integrated dataset ready for algorithms.</div>
+            </div>
+          </details>
+          <div class="flow-connector"></div>
+
+          <details class="case-card b1">
+            <summary>Modeling Phase</summary>
+            <div class="card-content">
+              <p>Applying classification models like Logistic Regression or Random Forest to predict "Default" vs "Non-Default."</p>
+              <div class="output-box"><strong>Stage Output:</strong> Trained predictive algorithms.</div>
+            </div>
+          </details>
+          <div class="flow-connector"></div>
+
+          <details class="case-card b2">
+            <summary>Evaluation Phase</summary>
+            <div class="card-content">
+              <p>Testing the model on unseen data to see if it correctly caught the 35% of defaulted cases.</p>
+              <div class="output-box"><strong>Stage Output:</strong> Accuracy and business alignment report.</div>
+            </div>
+          </details>
+          <div class="flow-connector"></div>
+
+          <details class="case-card b3">
+            <summary>Deployment Phase</summary>
+            <div class="card-content">
+              <p>Integrating the scoring model into the bank's digital portal for real-time risk assessment.</p>
+              <div class="output-box final"><strong>Final Output:</strong> Automated credit-risk scoring system that flags high-risk applicants.</div>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <div class="stacked-column">
+        <section class="glass-box">
+          <h2>Framework Assessment</h2>
+          <table class="case-table">
+            <thead>
+              <tr><th>Advantages</th><th>Limitations</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Structured Risk Management:</strong> Provides a systematic roadmap from defining business goals to model deployment.</td>
+                <td><strong>Time-Intensive:</strong> The iterative nature of Data Prep and Modeling can delay urgent credit policy updates.</td>
+              </tr>
+              <tr>
+                <td><strong>Enhanced Decision Objectivity:</strong> Replaces subjective human bias with data-driven credit scores.</td>
+                <td><strong>Data Quality Sensitivity:</strong> If historical data contains missing credit scores, the model accuracy drops significantly.</td>
+              </tr>
+              <tr>
+                <td><strong>Regulatory Transparency:</strong> Documentation at each stage helps banks explain "why" a loan was rejected to auditors.</td>
+                <td><strong>Algorithm Complexity:</strong> Advanced models (like Random Forest) can act as "black boxes."</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+<section class="glass-box">
+  <h2>Stakeholder & Industry Adoption</h2>
+  <div class="stakeholder-wrapper">
+    
+    <details class="stakeholder-hex">
+      <summary>🏦<br>Commercial Banks</summary>
+      <div class="stakeholder-content">
+        <img src="https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?auto=format&fit=crop&w=400&q=80" alt="Bank" class="display-img">
+        <p><strong>Industry Standard:</strong> Widely adopted by global banks to transition from subjective lending to data-driven risk mitigation.</p>
+        <p><strong>Case Application:</strong> Primary users who integrate the 65/35 distribution model into their loan portals to automate approvals.</p>
+      </div>
+    </details>
+
+    <details class="stakeholder-hex">
+      <summary>📱<br>FinTech Sector</summary>
+      <div class="stakeholder-content">
+        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400&q=80" alt="Fintech" class="display-img">
+        <p><strong>Industry Standard:</strong> Used by startups to maintain market share through rapid, predictive consumer retention and churn analysis.</p>
+        <p><strong>Case Application:</strong> Utilize Data Preparation outputs to build "Buy Now Pay Later" apps with real-time risk scores.</p>
+      </div>
+    </details>
+
+  </div> </div> </main> <footer class="main-footer">
+  IMC11203 Introduction to Computing & Data Science © 2026
+</footer>
+</body>
+</html>
